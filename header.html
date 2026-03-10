@@ -1,0 +1,57 @@
+<div class="topbar">
+  <div class="container topbar-inner">
+    <p>Envío gratis en pedidos superiores a 35 €</p>
+    <p>Café de especialidad recién tostado</p>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-wrap">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">MA</span>
+      <span class="logo-text">Monte Alto Roasters</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html">Inicio</a>
+      <a href="tienda.html">Tienda</a>
+      <a href="sobre-nosotros.html">Nuestra historia</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" id="openCartBtn" aria-label="Abrir carrito">
+        <span class="cart-icon">🛒</span>
+        <span id="cart-count" class="cart-count">0</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="cart-drawer" id="cartDrawer">
+  <div class="cart-drawer-overlay" id="cartDrawerOverlay"></div>
+
+  <aside class="cart-drawer-panel">
+    <div class="cart-drawer-head">
+      <h3>Tu carrito</h3>
+      <button class="cart-close" id="closeCartBtn" aria-label="Cerrar carrito">✕</button>
+    </div>
+
+    <div class="cart-drawer-body" id="drawer-cart-items"></div>
+
+    <div class="cart-drawer-footer">
+      <div class="drawer-total-row">
+        <span>Total</span>
+        <strong id="drawer-cart-total">0,00 €</strong>
+      </div>
+      <a href="carrito.html" class="btn btn-secondary" style="width:100%;">Ver carrito</a>
+      <a href="checkout.html" class="btn btn-primary" style="width:100%;">Finalizar compra</a>
+    </div>
+  </aside>
+</div>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu carrito | Monte Alto Roasters</title>
+  <meta name="description" content="Revisa tu selección antes de finalizar tu pedido en Monte Alto Roasters.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="header-placeholder"></div>
+
+  <main>
+    <section class="page-hero premium-page-hero">
+      <div class="container">
+        <span class="section-kicker">Tu selección</span>
+        <h1>Tu carrito</h1>
+        <p>
+          Revisa los cafés seleccionados antes de finalizar tu pedido.
+          Una compra clara y sencilla forma parte de una experiencia cuidada de principio a fin.
+        </p>
+      </div>
+    </section>
+
+    <section class="cart-section">
+      <div class="container cart-layout">
+        <div class="cart-items">
+          <div id="cart-items-list"></div>
+        </div>
+
+        <aside class="cart-summary">
+          <h2 class="mt-0">Resumen del pedido</h2>
+
+          <div class="summary-row">
+            <span>Subtotal</span>
+            <strong id="summary-subtotal">0,00 €</strong>
+          </div>
+
+          <div class="summary-row">
+            <span>Envío</span>
+            <strong id="summary-shipping">0,00 €</strong>
+          </div>
+
+          <div class="summary-row">
+            <span class="summary-total">Total</span>
+            <strong class="summary-total" id="summary-total">0,00 €</strong>
+          </div>
+
+          <a href="checkout.html" class="btn btn-primary" style="width:100%; margin-top:20px;">
+            Finalizar pedido
+          </a>
+
+          <a href="tienda.html" class="btn btn-secondary" style="width:100%; margin-top:12px;">
+            Seguir comprando
+          </a>
+
+          <div class="info-card" style="padding:18px; margin-top:20px; box-shadow:none; border:1px solid var(--line);">
+            <h3 style="margin-top:0;">Información de envío</h3>
+            <p class="muted" style="margin-bottom:10px;">
+              Envío gratuito en pedidos superiores a 35 €.
+            </p>
+            <p class="muted" style="margin-bottom:0;">
+              Preparación y entrega estimada en 24–48 horas laborables.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

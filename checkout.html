@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finalizar pedido | Monte Alto Roasters</title>
+  <meta name="description" content="Completa tus datos de envío y finaliza tu pedido en Monte Alto Roasters.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="header-placeholder"></div>
+
+  <main>
+    <section class="page-hero premium-page-hero">
+      <div class="container">
+        <span class="section-kicker">Checkout</span>
+        <h1>Finalizar pedido</h1>
+        <p>
+          Completa tus datos para recibir tu selección de café en casa.
+          Hemos diseñado este proceso para que sea claro, ágil y cómodo.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container two-col">
+        <div class="info-card">
+          <h2 class="mt-0">Datos de envío</h2>
+
+          <form id="checkout-form">
+            <div class="form-row">
+              <label for="nombre">Nombre completo</label>
+              <input type="text" id="nombre" required>
+            </div>
+
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input type="email" id="email" required>
+            </div>
+
+            <div class="form-row">
+              <label for="direccion">Dirección</label>
+              <input type="text" id="direccion" required>
+            </div>
+
+            <div class="form-row">
+              <label for="ciudad">Ciudad</label>
+              <input type="text" id="ciudad" required>
+            </div>
+
+            <div class="form-row">
+              <label for="cp">Código postal</label>
+              <input type="text" id="cp" required>
+            </div>
+
+            <div class="form-row">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" id="telefono" required>
+            </div>
+
+            <div class="form-row">
+              <label for="pago">Método de pago</label>
+              <select id="pago" required>
+                <option value="">Selecciona una opción</option>
+                <option>Tarjeta</option>
+                <option>PayPal</option>
+                <option>Transferencia bancaria</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Confirmar pedido</button>
+          </form>
+        </div>
+
+        <div class="info-card">
+          <h2 class="mt-0">Tu pedido</h2>
+
+          <div class="notice">
+            Envío gratuito a partir de 35 €.
+          </div>
+
+          <p class="muted">
+            En Monte Alto Roasters cuidamos cada pedido desde la selección del café
+            hasta su entrega, para que recibas el producto en las mejores condiciones.
+          </p>
+
+          <p class="muted">
+            Todos nuestros cafés se presentan en formatos pensados para conservar aroma,
+            frescura y calidad en cada taza.
+          </p>
+
+          <div class="info-card" style="padding:18px; margin-top:18px; box-shadow:none; border:1px solid var(--line);">
+            <h3 style="margin-top:0;">Qué puedes esperar</h3>
+            <ul class="check-list" style="margin-bottom:0;">
+              <li>Preparación rápida del pedido</li>
+              <li>Entrega estimada en 24–48 horas laborables</li>
+              <li>Packaging cuidado y presentación premium</li>
+              <li>Comunicación clara durante el proceso</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
